@@ -121,7 +121,7 @@ Player &Player::discover_cure(Color c)
      }
          //if les then five were found
          if (count<FIVE){
-             throw std::invalid_argument("you dont have five cards " + get_color(c));
+             throw std::invalid_argument("you dont have five cards " );
          }
          //if you find 5
          

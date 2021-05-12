@@ -1,11 +1,4 @@
-/**
- * Board for the Pandemic Game
- * 
- * C++ Course - Ariel University
- * 4th Assignment
- * 
- * @author Adi Dahari
- * */
+
 #pragma once
 #include <map>
 #include <set>

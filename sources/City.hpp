@@ -259,22 +259,5 @@ namespace pandemic
         {Tokyo, Red},
         {Washington, Blue},
     };
-    inline std::string color_the_city(City c)
-    {
-        switch (color_by_city.at(c))
-        {
-        case Red:
-            return RED;
-            break;
-        case Yellow:
-            return YELLOW;
-            break;
-        case Blue:
-            return BLUE;
-            break;
-        case Black:
-            return BLACK;
-            break;
-        }
-    };
+    
 }
